@@ -3,5 +3,5 @@ def reverse_each_word(words)
   collected_words = words_array.collect do |word|
     word.reverse
   end
-  collected_words.join(', ')
+  collected_words.join(' ')
 end
